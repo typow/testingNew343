@@ -57,8 +57,8 @@ public class DepthFirstSearch {
 	 * marks the vertex v if it isn't already marked.  Then for each vertex w, that is adjacent to v 
 	 * if it isn't yet marked calls {@link #dfs(SimpleGraph, Vertex) dfs} on it.
 	 * 
-	 * @param G		The graph that DepthFirstSearch is being run on
-	 * @param v		The current vertex being examined
+	 * @param G		- the graph that DepthFirstSearch is being run on
+	 * @param v		- the current vertex being examined
 	 */
 	private static void dfs(SimpleGraph G, Vertex v) {
 		
